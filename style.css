@@ -1,0 +1,52 @@
+.container{
+   background:black;
+}
+body{
+   background: black;
+   color: white;
+}
+
+button,#add-animal{
+width:130px;
+}
+.styleimage{
+   width: 200px;
+   height: 200px;
+   cursor: pointer;
+}
+.btn {
+   padding: 10px;
+   margin-left: 10px;
+   font-weight: bolder;
+   cursor: pointer;
+}
+button,
+        div,
+        form,
+        input {
+            margin: 10px;
+        }
+
+  span{
+   padding: 10px;
+   display: grid;
+   float: left;
+   cursor: pointer;
+  }   
+  a{
+     float: left;
+     display: grid;
+     cursor: pointer;
+  }  
+  .display{
+     display:none;
+  }
+  #fav-buttons-view{
+     float: right;
+     padding: 2px;
+     cursor: -webkit-grabbing; cursor: grabbing;
+  }
+  .fav{
+     color: red;
+
+  }
