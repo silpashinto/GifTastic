@@ -30,6 +30,7 @@ function displayanimalGifi() {
             var anchorElem = $('<a>');
             anchorElem.attr('href', imageStill);
             anchorElem.attr('download', title);
+            anchorElem.attr('media',"min-width: 320px");
             anchorElem.html('<img src="' + imageStill + '" class="gif styleimage display"><i class="fa fa-arrow-down" aria-hidden="true">');
             rating.append(anchorElem);
 
